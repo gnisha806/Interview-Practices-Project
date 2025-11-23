@@ -1,110 +1,73 @@
-# Interview-Practices-Project
-Interview Practice Partner is an AI-powered mock interview tool that helps users practice and prepare for real job interviews. It simulates an actual interviewer, asks follow-up questions, and gives detailed feedback based on how well the user responds.
+# Welcome to your Lovable project
 
-How to Run the Project
-1. Clone the Repository
-git clone https://github.com/your-username/interview-practice-partner.git
-cd interview-practice-partner
+## Project info
 
-2. Install Dependencies
-npm install
+**URL**: https://lovable.dev/projects/3fb03a91-87f9-43ae-bc47-7b24abea2a1b
 
-3.Your UI launches at:
-http://localhost:3000
+## How can I edit this code?
 
-✨ Key Features
-🎙️ Dual Interaction Modes
-Voice-based interview (Primary)
-Chat-based interaction (Alternative)
+There are several ways of editing your application.
 
-🧠 AI Interviewer
-Conducts realistic interviews
-Asks role-specific and behavioral questions
-Generates follow-up questions based on user answers
-Adapts to interview flow dynamically
+**Use Lovable**
 
-📋 Multi-Role Support
-Choose from:
-Software Engineer
-Sales Executive
-Retail Associate
-HR Executive
-Marketing Analyst
-Data Analyst
-etc..
-Custom role input
+Simply visit the [Lovable Project](https://lovable.dev/projects/3fb03a91-87f9-43ae-bc47-7b24abea2a1b) and start prompting.
 
-📊 Performance Evaluation
-AI analyzes:
-Communication clarity
-Technical accuracy
-Confidence & tone (voice mode)
-STAR method adherence
-Relevance and structure
+Changes made via Lovable will be committed automatically to this repo.
 
-Includes:
-Score breakdown
-Strengths
-Weaknesses
-Improvement suggestions
-Example ideal answers
+**Use your preferred IDE**
 
-📝 Interview Reports
-Auto-generated summary
-Downloadable PDF
-History of past interviews
-Tracks user progress
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-📄 Resume-Enhanced Interview (Optional)
-Upload resume → AI generates custom interview questions.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-🛠️ Tech Stack
-Frontend
-Flutter / React
-Modern card-based UI
-Integrated voice recording
-Chat interface with typing indicators
+Follow these steps:
 
-Backend
-Node.js / Python Flask
-Real-time communication using WebSockets
-Firebase / MongoDB
-Speech-to-Text & Text-to-Speech API
-LLM for interview reasoning and evaluation
-AI Layer
-LLM-powered interviewer
-Natural language answer analysis
-Dynamic follow-up questions
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Personalized feedback generator
-📐 System Workflow
-User selects job role
-AI starts structured interview
-User responds via voice/chat
-AI analyzes response
-AI asks follow-up or next question
-After interview → Evaluation report generated
-User downloads feedback or views history
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-🎨 UI/UX Highlights
-Clean, minimalistic dashboard
-Role selection grid
-Real-time chat UI
-Voice input module
-Interactive feedback screen with charts
-Dark & light mode support
+# Step 3: Install the necessary dependencies.
+npm i
 
-🚀 Project Goals
-Improve interview preparation
-Build confidence through practice
-Provide affordable AI-based interview coaching
-Enable personalized, role-specific training
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-You are an AI Interview Practice Partner.
-Conduct a professional mock interview for the selected role.
-Ask one question at a time.
-After each response:
-- analyze the answer,
-- ask follow-up questions if needed,
-- keep the flow realistic.
-At the end, generate a full evaluation report with strengths, weaknesses, and suggested improvements.
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/3fb03a91-87f9-43ae-bc47-7b24abea2a1b) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
